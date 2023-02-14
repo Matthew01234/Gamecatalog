@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url('background.jpg');     
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+
+.aclass{
+background-color: blue;
+height: 100px;
+width: 100px;
+color: white;
+}
+
+    
+
+.GamePicker{
+    justify-content: center;
+}
+main{
+    display: flex;
+    row-gap: row;
+    background-color:grey ;
+    height: 500px;
+    
+}
+.informatie{
+flex:1;
+}
+.title{
+flex:2;
+}
+
+footer{
+    background-color: grey;
+    height: 300px;
+}
