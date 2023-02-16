@@ -9,41 +9,90 @@ body{
     background-size: cover;
 }
 header{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    background-color: darkgrey;
+    background-color: grey;
     justify-content: space-between;
-    height: 50px;
+    padding: 25px;
     
 }
 
 .aclass{
-background-color: blue;
-height: 100px;
-width: 100px;
-color: white;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    color: black;
 }
-
+.test{
+    display: flex;
+    flex-direction: row;
+    
+}
     
 
 .GamePicker{
     justify-content: center;
+    background-color: white;
+    color: black;
 }
 main{
+    margin-top: 10px;
     display: flex;
     row-gap: row;
-    background-color:grey ;
+    background-color: grey;
+    flex-direction: column;
     height: 500px;
     
 }
 .informatie{
-flex:1;
+    
+    background-color:darkgrey ;
+    flex:1;
+    margin: 20px;
+    padding-left: 10px;
 }
 .title{
-flex:2;
+    padding-left: 10px;
+    margin: 20px;
+    background-color:darkgrey ;
+    flex:2;
+    height: 250px;
 }
 
+
+.fotosection{
+    background-color: grey; 
+    padding: 10px;
+}
+
+.fotoclass{
+    padding: 20px;
+    height: 150px;
+    width: 200px ;
+    background-color: darkgray;
+
+}
+.systeemvereisten{
+    margin-top: 10px;
+    background-color: grey; 
+    height: 320px;
+    padding: 10px;
+
+}
+.systeemvereistendiv{
+    padding: 20px;
+    background-color:darkgrey ;
+}
 footer{
+    margin-top: 355px;
     background-color: grey;
+    display: flex;
+    flex-direction: row;
     height: 300px;
+}
+.recenties{
+    padding: 20px;
+    background-color: darkgrey;
 }
